@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #f4f7f6;
+      --bg: #e5e6e5;
       --card: #ffffff;
       --primary: #6b9ac4;
       --text: #2f3e46;
@@ -61,7 +61,7 @@
     }
 
     .hero {
-      display: grid;
+      display:flex;
       grid-template-columns: 1fr 1fr;
       gap: 40px;
       align-items: center;
@@ -71,11 +71,13 @@
     .hero h1 {
       font-size: 2.5rem;
       margin-bottom: 15px;
+      margin-right: 50px;
     }
 
     .hero p {
       color: var(--muted);
       margin-bottom: 25px;
+      margin-right: 50px;
     }
 
     .btn {
@@ -144,7 +146,7 @@
 <body>
   <div class="container">
     <header>
-      <div class="logo">Bayu.</div>
+      <div class="logo">Portofolio</div>
       <nav>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
@@ -152,11 +154,11 @@
       </nav>
     </header>
 
-    <section class="hero" id="about">
+    <section class="hero" id="about">    
       <div>
         <h1>Halo, Saya Bayu Mukti Wicaksono 👋</h1>
         <p>
-          Lulusan SMK CYBER MEDIA JAKARTA.
+          Lulusan SMK CYBER MEDIA JAKARTA.<br>
           Saya jurusan TJKT, namun saya ingin menjadi Peternak dikampung.
         </p>
         <a href="#contact" class="btn">Hubungi Saya</a>
@@ -164,7 +166,7 @@
       <br>
       <div class="card">
         <p><strong>Skill:</strong></p>
-        <p>HTML • CSS • Adobe premiere pro • Fiber optic</p>
+        <p>• HTML<br>• CSS <br>• Premiere pro <br>• Fiber optic</p>
       </div>
     </section>
 
@@ -189,7 +191,7 @@
     <section id="contact">
       <h2 class="section-title">Contact</h2>
       <div class="card" style="text-align:center;">
-        <p>Email: bayu@email.com</p>
+        <p>Email: bayumuktiwicaksono9@email.com</p>
         <p>Instagram: @bayumktwcksn</p>
       </div>
     </section>
